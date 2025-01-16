@@ -11,6 +11,7 @@
         $string = "Curso na DIO";
 
     ?>
+    
     <h4>
         Essa é uma variável do tipo string, para implementar uma variável do tipo string utilizamos aspas simples ('') ou duplas ("") => 
 
