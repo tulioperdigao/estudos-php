@@ -40,7 +40,7 @@
     <h4>
         Vamos agora implementar uma variável do tipo datas, para implementar a variável com datas utilizamos uma função própria do PHP desta forma =>
         <?php
-            echo($data);
+            print $data;
         ?>
     </h4>
 </body>
