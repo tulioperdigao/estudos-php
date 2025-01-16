@@ -11,6 +11,8 @@
         $string = "Curso na DIO";
         $numeros = 50;
         $array = array("PHP", "HTML", "CSS", "JAVASCRIPT");
+        date_default_timezone_set('America/Sao_Paulo');
+        $data = date("d/m/Y H:i:s");
 
     ?>
 
@@ -33,6 +35,12 @@
 
         <?php 
             print_r($array);
+        ?>
+    </h4>
+    <h4>
+        Vamos agora implementar uma variável do tipo datas, para implementar a variável com datas utilizamos uma função própria do PHP desta forma =>
+        <?php
+            echo($data);
         ?>
     </h4>
 </body>
