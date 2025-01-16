@@ -6,8 +6,19 @@
     <title>Revisão PHP</title>
 </head>
 <body>
+    <?php
+    
+        $string = "Curso na DIO";
+
+    ?>
     <h4>
-        Essa é uma variável do tipo string, para implementar uma variável do tipo string utilizamos aspas simples ('') ou duplas ("") => $string = "Curso na DIO"
+        Essa é uma variável do tipo string, para implementar uma variável do tipo string utilizamos aspas simples ('') ou duplas ("") => 
+
+        <?php 
+        
+            echo $string;
+        
+        ?>
     </h4>
 </body>
 </html>
