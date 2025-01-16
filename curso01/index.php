@@ -10,6 +10,7 @@
     
         $string = "Curso na DIO";
         $numeros = 50;
+        $array = array("PHP", "HTML", "CSS", "JAVASCRIPT");
 
     ?>
 
@@ -25,6 +26,13 @@
 
         <?php  
             echo $numeros;
+        ?>
+    </h4>
+    <h4>
+        Essa é uma variável com um array, para implementar um Array em uma variável utilizamos desta forma =>
+
+        <?php 
+            print_r($array);
         ?>
     </h4>
 </body>
